@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+
+/*.video-background {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height:100%;
+	width: auto;
+	height: auto;
+	z-index: -100%;
+}
+@media (min-aspect-ratio:16/9) {
+	.video-background {
+		width: 100%;
+		height:auto;
+	}
+}
+@media (max-aspect-ratio: 16/9 ) {
+	.video-background {
+		width: auto;
+		height: 100%;
+	}
+}
+*/
+header{
+	background: rgb(50, 135, 255);
+	height: 100vh;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 0 ;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 
+}
+.nav{
+	background: rgba(0,0,0,.5);
+	height: 80px;
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.menu li a {
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #fff;
+
+}
+
+.menu li a:hover{
+	background: coral;
+	border-bottom: 1px solid coral;
+	transition: .4s;
+}
+
+.msg{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 200px;
+
+}
+.msg h1{
+	font-size: 52px;
+	margin: 25px;
+}
+
+.btn{
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 2px;
+	padding: 7px 28px;
+	text-decoration:none;
+	border:1px solid coral;
+	border-radius: 25px;
+}
+
+.btn1{
+	background: coral;
+	color: #fff;
+}
+.btn2{
+	background: coral;
+}
+.block
+{
+padding: 40px;
+float:left;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 450px;
+}
+
+
+
+.card:hover {
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  
+}
+.c
+{
+justify-content: centre;
+width: 200px;
+height: 10px;
+padding: 0 70px; 
+}
+.p 
+{
+font-size: 18px;
+font-family: Arial, Helvetica, Sans-serif;
+}
+button
+{
+font-size: 12px;
+background-color: #f0f8ff;
+padding: 5px;
+border-color: #f0f8ff;
+}
